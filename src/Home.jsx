@@ -1,10 +1,13 @@
 import React from 'react';
 import Navigation from './Nav';
+import AboutMe from './AboutMe';
+import Projects from './Projects';
 
-const Home = () => (
+const Home = ({ projects }) => (
   <div>
     <Navigation></Navigation>
-    <h2> Home </h2>
+    <AboutMe></AboutMe>
+    <Projects projects={projects}></Projects>
   </div>
 );
 

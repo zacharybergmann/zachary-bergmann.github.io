@@ -1,10 +1,11 @@
-import React from './react';
+import React from 'react';
 import Navigation from './Nav';
 import { Jumbotron } from 'react-bootstrap';
+import Project from './Project';
 
-const Projects = () => (
+const Projects = ({ projects }) => (
   <div>
-    {props.map((project, ind) => <Project />)}
+    {projects.map((project, ind) => <Project project={project} key={project.name} />)}
   </div>
 );
 

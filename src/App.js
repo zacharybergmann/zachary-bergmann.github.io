@@ -1,22 +1,17 @@
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Route,
-  Link,
-} from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Home from './Home';
 import Blog from './Blog';
-import AboutMe from './AboutMe';
+import Applications from './Applications';
 
-const App = () => (
+const App = ({ projects }) => (
   <Router>
     <div>
-      <Route exact path="/" component={Home}/>
-      <Route path="/aboutme" component={AboutMe}/>
-      <Route path="/blog" component={Blog}/>
+      <Route exact path='/' render={props => <Home {...props} projects={projects} />} />
+      <Route path='/apps' render={props => <Applications {...props} projects={projects} />} />
+      <Route path='/blog' render={props => <Blog {...props} projects={projects} />} />
     </div>
   </Router>
 );
 
 export default App;
-
