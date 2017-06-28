@@ -14,7 +14,7 @@ const projects = [
   },
   {
     name: 'Bargain Hound',
-    deployedUrl: 'http://www.github.com',
+    deployedUrl: 'http://13.59.205.240/#!/dashboard',
     image: './images/bargainhound.jpg',
     description: 'Identifying publicly traded stocks that may be a bargain',
   },
@@ -26,7 +26,7 @@ const projects = [
   },
   {
     name: 'PickUp',
-    deployedUrl: 'http://www.github.com',
+    deployedUrl: 'http://13.59.205.240:443/#/index',
     image: './images/pickup_how_to.jpg',
     description: 'An internet and text interface for joining and creating pick-up sports games',
   },
