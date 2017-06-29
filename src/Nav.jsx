@@ -16,10 +16,10 @@ const Navigation = () => (
         <IndexLinkContainer to='/'><NavItem>Home</NavItem></IndexLinkContainer>
         <LinkContainer to='/blog'><NavItem>Blog</NavItem></LinkContainer>
         <NavDropdown pullRight eventKey={3} title="Applications" id="basic-nav-dropdown">
-          <li><a href="http://bargainhound.zacharybergmann.com">Bargain Hound</a></li>
-          <li><a href="http://spork.zacharybergmann.com">Spork</a></li>
-          <li><a href="http://pickup.zacharybergmann.com">PickUp</a></li>
-          <li><a href="http://langsnap.zacharybergmann.com">LangSnap</a></li>
+          <MenuItem href="http://bargainhound.zacharybergmann.com">Bargain Hound</MenuItem>
+          <MenuItem href="http://spork.zacharybergmann.com">Spork</MenuItem>
+          <MenuItem href="http://pickup.zacharybergmann.com">PickUp</MenuItem>
+          <MenuItem href="http://langsnap.zacharybergmann.com">LangSnap</MenuItem>
         </NavDropdown>
       </Nav>
     </Navbar.Collapse>

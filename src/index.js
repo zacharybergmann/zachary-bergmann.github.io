@@ -21,7 +21,7 @@ const projects = [
   {
     name: 'Spork',
     deployedUrl: 'http://www.github.com',
-    image: './images/bargainhound.jpg',
+    image: './images/spork.jpg',
     description: 'Sharing leftovers with friends to create delicious meals with a social atmosphere'
   },
   {

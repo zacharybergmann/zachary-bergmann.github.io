@@ -13,11 +13,11 @@ const AboutMe = () => {
           <br />
           <Well> 
             <h2> About Me </h2>
-            <p>
+            <h4>
               I am a software engineer in the Baltimore, MD area working primarily on full stack JavaScript applications. 
               When I am not learning something new or building out an app (and consequently learning something new), I enjoy rock climbing,
               hiking/camping, reading, and having social evenings with friends.
-            </p>
+            </h4>
           </Well>
         </Col>
       </Row>
