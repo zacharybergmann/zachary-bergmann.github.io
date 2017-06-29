@@ -1,6 +1,4 @@
 import React from 'react';
-import Navigation from './Nav';
-import { Jumbotron } from 'react-bootstrap';
 import Project from './Project';
 
 const Projects = ({ projects }) => (
